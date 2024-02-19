@@ -1,0 +1,2 @@
+I am taking this class to "level up" from an analyst who is primarily writing analytical SQL to someone with an engineering mindset and skills. 
+Specifically, I am looking to become more familiar with command line, git, Python and dbt. I have a some exposure to each of these, but don't work with them often enough.
