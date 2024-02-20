@@ -7,3 +7,11 @@ models:
         tests:
           - unique
           - not_null
+
+sources:
+  - name: coffee_shop_drydenne
+    database: raw  
+    schema: coffee_shop_drydenne  
+    tables:
+      - name: monthly_customers
+      - name: customers
