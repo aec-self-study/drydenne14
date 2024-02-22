@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: coffee_shop_drydenne
-    database: raw  
+    database: drydenne-aec-project  
     schema: coffee_shop_drydenne  
     tables:
       - name: monthly_customers
