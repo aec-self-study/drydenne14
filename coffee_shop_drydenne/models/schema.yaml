@@ -3,15 +3,7 @@ models:
     description: Cleaned up data for our customers
     columns:
       - name: customer_id
-        description: Primary key of the model
+        description: "{{doc('customers')}}""
         tests:
           - unique
           - not_null
-
-sources:
-  - name: coffee_shop_drydenne
-    database: raw  
-    schema: coffee_shop_drydenne  
-    tables:
-      - name: monthly_customers
-      - name: customers
