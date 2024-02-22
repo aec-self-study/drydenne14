@@ -3,7 +3,7 @@ models:
     description: Cleaned up data for our customers
     columns:
       - name: customer_id
-        description: "{{doc('customers')}}""
+        description: "{{doc('customers')}}"
         tests:
           - unique
           - not_null
