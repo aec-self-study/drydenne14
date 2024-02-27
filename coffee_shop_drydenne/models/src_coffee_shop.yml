@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: dbt_drydenne
-    project: aec-students
+    project: coffee_shop_drydenne
     tables:
       - name: customers
         columns:
